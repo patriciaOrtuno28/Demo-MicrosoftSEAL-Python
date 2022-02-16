@@ -2,6 +2,7 @@
 import os
 
 # Installation SEAL Python
+os.system('sudo apt-get update')
 os.system('sudo apt-get install git build-essential cmake python3 python3-dev python3-pip')
 os.system('git clone https://github.com/Huelse/SEAL-Python.git')
 os.chdir('SEAL-Python')
