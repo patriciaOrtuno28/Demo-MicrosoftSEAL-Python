@@ -6,6 +6,7 @@ Incluye un fichero de instalación de dependencias junto con una demo denominada
 1. Clonación del proyecto
 ~~~
 git clone https://github.com/patriciaOrtuno28/Demo-MicrosoftSEAL-Python.git
+cd Demo-MicrosoftSEAL-Python/
 ~~~
 2. Ejecutar fichero automatizado de instalación de dependencias
 ~~~
