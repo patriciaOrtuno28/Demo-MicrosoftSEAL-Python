@@ -9,7 +9,7 @@ Incluye un fichero de instalación de dependencias junto con una demo denominada
 sudo apt-get update
 sudo apt-get install git build-essential cmake python3 python3-dev python3-pip
 ~~~
-2. Instalación de docker docker
+2. Instalación de docker
 ~~~
 sudo apt-get remove docker docker-engine docker.io containerd runc
 sudo apt-get update
@@ -19,12 +19,12 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 ~~~
-3. Clonación del proyecto de SEAL-Python.
+3. Clonación del proyecto de SEAL-Python
 ~~~
 git clone https://github.com/Huelse/SEAL-Python.git
 cd SEAL-Python/
 ~~~
-4. Construcción de la imagen a partir del Dockerfile proporcionado y comprobación de su correcta creación.
+4. Construcción de la imagen a partir del Dockerfile proporcionado y comprobación de su correcta creación
 ~~~~
 sudo docker build -t seal_python .
 sudo docker image ls
@@ -33,7 +33,7 @@ sudo docker image ls
 ~~~
 sudo docker run -it --name container-seal seal_python
 ~~~
-6. Entramos en un contenedor de docker interactivo de lenguaje Python. Para ejecutar la demo debemos seguir los siguientes pasos.
+6. Entramos en un contenedor de docker interactivo de lenguaje Python. Para ejecutar la demo debemos seguir los siguientes pasos
 ~~~~
 import os
 os.system('git clone >>> os.system('git clone https://github.com/patriciaOrtuno28/Demo-MicrosoftSEAL-Python.git')
