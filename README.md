@@ -2,6 +2,13 @@
 Demo del uso de la librería SEAL para criptografía completamente homomórfica (FHE) de Microsoft.
 Incluye un fichero de instalación de dependencias junto con una demo denominada scenario.py.
 
+## Modo de uso
+
+1. Introducir un dígito entero en el cuadro de texto y pulsar `Añadir`.
+2. Repetir la operación para todos los dígitos a los que queramos aplicar la fórmula. Se irán concatenando en una lista.
+3. Pulse `Encriptar` cuando haya introducido todos los valores que desee.
+4. Pulse `Desencriptar` para obtener el resultado de `x**3 - 3x + 1` por cada dato individual introducido.
+
 ## Instalación
 ### Docker
 1. Instalación de dependencias
